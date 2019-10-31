@@ -2,7 +2,7 @@ var latLng = L.latLng(41.386667, 2.17);
 
 var map = L.map('mapid', {
 	center: latLng,
-	zoom: 17
+	zoom: 16
 });
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
